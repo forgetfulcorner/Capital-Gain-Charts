@@ -32,10 +32,10 @@ const pane = new Tweakpane.Pane();
 pane.addInput(PARAMS, 'date', { min: 0, max: 249});
 
 function preload() {
-    sector = loadTable("../Data/SectorCapGain.csv", 'csv', 'header')
-    SP500 = loadTable("../Data/S&P2023.csv", "csv", "header");
-    jetBrains = loadFont('../Fonts/JetBrainsMono-Light.otf');
-    dreamOrphans = loadFont('../Fonts/Dream_Orphans_It.otf');
+    sector = loadTable("SectorCapGain.csv", 'csv', 'header')
+    SP500 = loadTable("S&P2023.csv", "csv", "header");
+    jetBrains = loadFont('JetBrainsMono-Light.otf');
+    dreamOrphans = loadFont('Dream_Orphans_It.otf');
 }
 
 function setup() {
